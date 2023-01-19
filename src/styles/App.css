@@ -21,3 +21,20 @@
 button {
   min-width: 80px;
 }
+button{
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 10px;
+    box-shadow: 1px 1px 10px 1px lightcoral;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.25s ease-in;
+}
+button:hover{
+    box-shadow: 1px 1px 10px 3px yellowgreen;
+    color: yellowgreen;
+}
+[data-testid="title"]{
+    color: indigo;
+}
