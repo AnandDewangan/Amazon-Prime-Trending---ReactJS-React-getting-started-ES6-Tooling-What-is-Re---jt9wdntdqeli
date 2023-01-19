@@ -38,3 +38,6 @@ button:hover{
 [data-testid="title"]{
     color: indigo;
 }
+div{
+    text-align: center;
+}
